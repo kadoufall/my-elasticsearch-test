@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索结果</title>
+</head>
+<body>
+<h3>搜索结果</h3>
+
+<% books.forEach(function (book) {%>
+    <div>
+       <h3>{{ book.title}} &nbsp; &nbsp; {{ book.author}}</h3>
+       <p>{{ book.abstract}}</p>
+    </div>
+<% })%>
+
+<p><a href="/">返回</a></p>
+
+</body>
+</html>
