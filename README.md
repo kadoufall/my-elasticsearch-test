@@ -1,4 +1,4 @@
-# Web Homework 2
+# My-Elasticsearch-Test
 - 使用`Elasticsearch`和`Koa`做的一个图书数据库的demo
 - 支持添加书籍，按作者、书名或摘要搜索
 - node v8.0.0
